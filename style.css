@@ -1,0 +1,29 @@
+.container {
+  padding: 10vh 25vw;
+}
+
+.container img {
+  width: 100%;
+  display: block;
+  height: auto;
+}
+.btn {
+  padding: 12px 50px;
+  width: 100%;
+  font-size: 18px;
+  font-family: Arial, sans-serif;
+  font-weight: 600;
+  color: white;
+
+  background: linear-gradient(135deg, red, green,yellow);
+  border: none;
+  border-radius: 8px;
+
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+/* Hover effect */
+.btn:hover {
+  background: linear-gradient(135deg, red, green,yellow));
+}
